@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1>My Portfolio</h1>
+            <button id="menu-toggle" class="menu-toggle">Menu</button>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" data-target="home">Home</a>
+                <a href="#" class="nav-link" data-target="about">About Me</a>
+                <a href="#" class="nav-link" data-target="skills">Skills</a>
+                <a href="#" class="nav-link" data-target="contact">Contact Me</a>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-sun icon"></i>
+                Change Theme
+            </button>
+        </nav>
+
+        <div id="home" class="content-section active">
+            <h2>Welcome to My Portfolio</h2>
+            <p>This is my homepage where I showcase my projects.</p>
+        </div>
+        <div id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>I'm ....</p>
+        </div>
+        <div id="skills" class="content-section">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 55%;">55%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Git</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 45%;">45%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="content-section">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button id="submit" type="submit">Send</button>
+            </form>
+        </div>
+        <button id="back-to-top" class="back-to-top"><i class="fas fa-arrow-up icon"></i></button>
+        <footer class="footer">
+            <p>&copy; 2025</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
