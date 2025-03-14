@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-Welcome to my personal portfolio! This website showcases my skills, projects, and how to get in touch with me. It includes interactive features, a modern design, and is fully responsive to work well on all devices.
+Welcome to my personal portfolio! This website showcases my skills, projects, and how to get in touch with me. Please note that the website is still a work in progress and is continuously evolving as I add new features and improvements.
 
 ## Features
 
